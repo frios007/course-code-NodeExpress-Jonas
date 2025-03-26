@@ -1,0 +1,21 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Leaning express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Fabio Rios",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.23",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  }
+}
